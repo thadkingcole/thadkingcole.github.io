@@ -8,5 +8,5 @@
   bottom: 33%;
   left: -1%;
   transform: rotate(-20deg);
-  width: 333px;
+  max-width: 333px;
 }
