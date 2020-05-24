@@ -1,0 +1,12 @@
+/* display coming soon "ribbon" above each portfolio placeholder */
+.rel {
+  position: relative;
+}
+
+.ribbon {
+  position: absolute;
+  bottom: 33%;
+  left: -1%;
+  transform: rotate(-20deg);
+  width: 333px;
+}
