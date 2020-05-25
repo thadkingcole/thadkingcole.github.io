@@ -10,7 +10,7 @@ These are the things I am working on to improve my website. I will add to this l
 - [x] utilize bootstrap classes to minimize the use of media queries
 - [x] use bootstrap's grid system
 - [x] use semantic html
-- [x] each page must have valid and correct html *I have some things to clean up*
+- [x] each page must have valid and correct html
 - [x] must contain my personalized information (bio, name, images, links to social media, etc)
 
 Bonus:
