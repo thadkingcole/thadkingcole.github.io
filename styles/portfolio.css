@@ -5,10 +5,9 @@
   left: 1%;
   right: 1%;
   transform: rotate(-10deg);
-  /* max-width: 468px; */
 }
 
 /* fade placeholder images */
 .placeholder {
-  opacity: .5;
+  opacity: 0.5;
 }
