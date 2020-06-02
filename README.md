@@ -2,7 +2,7 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f9f0ac4f550a47a8901a9147976ca3af)](https://app.codacy.com/manual/thadkingcole/thadkingcole.github.io?utm_source=github.com&utm_medium=referral&utm_content=thadkingcole/thadkingcole.github.io&utm_campaign=Badge_Grade_Dashboard) ![GitHub top language](https://img.shields.io/github/languages/top/thadkingcole/thadkingcole.github.io)
 
-This repo will house my personal/professional website. On this website, I will provide some information about myself, a portfolio page showcasing some of my projects, and a way to contact me.
+This repo will house my personal/professional [website](https://thadkingcole.github.io). On this website, I will provide some information about myself, a portfolio page showcasing some of my projects, and a way to contact me.
 
 ## Work list
 
@@ -14,8 +14,7 @@ These are the things I am working on to improve my website. I will add to this l
 - [x] use semantic html
 - [x] each page must have valid and correct html
 - [x] must contain my personalized information (bio, name, images, links to social media, etc)
-
-Bonus:
-
 - [x] using bootstrap, make a sticky footer
 - [x] use sub-rows and sub-columns on portfolio site
+- [ ] add screenshot of website to readme
+- [ ] make contact me page a functional way to, well, contact me.
