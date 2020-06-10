@@ -1,144 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thaddeus Cole | Portfolio</title>
-  
-  <!-- bootstrap css -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thaddeus Cole | Portfolio</title>
 
-  <!-- my portfolio css -->
-  <link rel="stylesheet" href="./styles/portfolio.css">
-  
-</head>
-<body>
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
-  <!-- NavBar -->
-  <header class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="nav-link" href="index.html">
-      <h1 class="text-light">Thaddeus Cole</h1>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <nav class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <!-- End NavBar -->
+    <!-- my portfolio css -->
+    <link rel="stylesheet" href="./styles/portfolio.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="nav-link" href="index.html">
+        <h1 class="text-light">Thaddeus Cole</h1>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav
+        class="collapse navbar-collapse justify-content-end"
+        id="collapsibleNavbar"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End NavBar -->
 
-  <!-- Portfolio content -->
-  <main class="container mb-5">
-    <div class="row">
-      <section class="col-12 col-lg-9 card shadow mt-4 mb-5">
-        <h2 class="card-header">Portfolio</h2>
+    <!-- Portfolio content -->
+    <main class="container mb-5">
+      <div class="row">
+        <section class="col-12 col-lg-9 card shadow mt-4 mb-5">
+          <h2 class="card-header">Portfolio</h2>
 
-        <!-- First sub row -->
-        <div class="row card-body">
+          <!-- First sub row -->
+          <div class="row card-body">
+            <!-- Project 1 -->
+            <figure class="col-12 col-md-6">
+              <a
+                href="https://thadkingcole.github.io/Password-Generator"
+                target="_blank"
+              >
+                <img
+                  class="img-fluid mx-auto d-block"
+                  src="/Assets/Images/password_generator.jpg"
+                  width="400"
+                  height="300"
+                  alt="password generator"
+                />
+              </a>
+              <!-- Project 1 short description -->
+              <figcaption class="text-center p-1 lead">
+                <a
+                  href="https://thadkingcole.github.io/Password-Generator"
+                  target="_blank"
+                  >Password Generator:</a
+                >
+                a javascript random character generator
+              </figcaption>
+            </figure>
 
-          <!-- Project 1 -->
-          <figure class="col-12 col-md-6">
-            <a href="https://thadkingcole.github.io/Password-Generator" target="_blank">
-              <img
-                class="img-fluid mx-auto d-block"
-                src="/Assets/Images/password_generator.png"
-                width="400"
-                height="300"
-                alt="password generator" />
-            </a>
-            <!-- Project 1 short description -->
-            <figcaption class="text-center p-1 lead"><a href="https://thadkingcole.github.io/Password-Generator" target="_blank">Password Generator:</a> a javascript random character generator</figcaption>
-          </figure>
+            <!-- Project 2 -->
+            <figure class="col-12 col-md-6">
+              <a
+                href="https://thadkingcole.github.io/code_quiz"
+                target="_blank"
+              >
+                <img
+                  class="img-fluid mx-auto d-block"
+                  src="/Assets/Images/code_quiz.jpg"
+                  width="400"
+                  height="300"
+                  alt="code quiz"
+                />
+              </a>
+              <!-- Project 2 short description -->
+              <figcaption class="text-center p-1 lead">
+                <a
+                  href="https://thadkingcole.github.io/code_quiz"
+                  target="_blank"
+                  >Code Quiz:</a
+                >
+                A timed quiz of JavaScript coding questions using the HTML DOM API.
+              </figcaption>
+            </figure>
 
-          <!-- Project 2 -->
-          <figure class="col-12 col-md-6">
-            <a href="#">
-              <img
-                class="img-fluid mx-auto d-block placeholder"
-                src="https://placekitten.com/400/300"
-                width="400"
-                height="300"
-                alt="project 2" />
-            </a>
-            <!-- coming soon ribbon -->
-            <figcaption class="bg-info text-light text-center p-1 lead ribbon">Project 2 - coming soon!</figcaption>
-          </figure>
-        </div>
+          </div>
 
-        <!-- Second sub row -->
-        <div class="row card-body">
+          <!-- Second sub row -->
+          <div class="row card-body">
+            <!-- Project 3 -->
+            <figure class="col-12 col-md-6">
+              <a href="#">
+                <img
+                  class="img-fluid mx-auto d-block placeholder"
+                  src="https://placekitten.com/400/300"
+                  width="400"
+                  height="300"
+                  alt="project 3"
+                />
+              </a>
+              <!-- coming soon ribbon -->
+              <figcaption
+                class="bg-info text-light text-center p-1 lead ribbon"
+              >
+                Project 3 - coming soon!
+              </figcaption>
+            </figure>
 
-          <!-- Project 3 -->
-          <figure class="col-12 col-md-6">
-            <a href="#">
-              <img
-                class="img-fluid mx-auto d-block placeholder"
-                src="https://placekitten.com/400/300"
-                width="400"
-                height="300"
-                alt="project 3" />
-            </a>
-            <!-- coming soon ribbon -->
-            <figcaption class="bg-info text-light text-center p-1 lead ribbon">Project 3 - coming soon!</figcaption>
-          </figure>
+            <!-- Project 4 -->
+            <figure class="col-12 col-md-6">
+              <a href="#">
+                <img
+                  class="img-fluid mx-auto d-block placeholder"
+                  src="https://placekitten.com/400/300"
+                  width="400"
+                  height="300"
+                  alt="project 4"
+                />
+              </a>
+              <!-- coming soon ribbon -->
+              <figcaption
+                class="bg-info text-light text-center p-1 lead ribbon"
+              >
+                Project 4 - coming soon!
+              </figcaption>
+            </figure>
+          </div>
 
-          <!-- Project 4 -->
-          <figure class="col-12 col-md-6">
-            <a href="#">
-              <img
-                class="img-fluid mx-auto d-block placeholder"
-                src="https://placekitten.com/400/300"
-                width="400"
-                height="300"
-                alt="project 4" />
-            </a>
-            <!-- coming soon ribbon -->
-            <figcaption class="bg-info text-light text-center p-1 lead ribbon">Project 4 - coming soon!</figcaption>
-          </figure>
-        </div>
+          <!-- Third sub row -->
+          <div class="row card-body">
+            <!-- Project 5 -->
+            <figure class="col-12 col-md-6">
+              <a href="#">
+                <img
+                  class="img-fluid mx-auto d-block placeholder"
+                  src="https://placekitten.com/400/300"
+                  width="400"
+                  height="300"
+                  alt="project 5"
+                />
+              </a>
+              <!-- coming soon ribbon -->
+              <figcaption
+                class="bg-info text-light text-center p-1 lead ribbon"
+              >
+                Project 5 - coming soon!
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- End Portfolio Content -->
 
-        <!-- Third sub row -->
-        <div class="row card-body">
+    <!-- Footer -->
+    <footer
+      class="d-flex p-1 bg-dark text-light fixed-bottom justify-content-center"
+    >
+      <p>Copyright &copy; Thaddeus Cole</p>
+    </footer>
+    <!-- End Footer -->
 
-          <!-- Project 5 -->
-          <figure class="col-12 col-md-6">
-            <a href="#">
-              <img
-                class="img-fluid mx-auto d-block placeholder"
-                src="https://placekitten.com/400/300"
-                width="400"
-                height="300"
-                alt="project 5" />
-            </a>
-            <!-- coming soon ribbon -->
-            <figcaption class="bg-info text-light text-center p-1 lead ribbon">Project 5 - coming soon!</figcaption>
-          </figure>
-        </div> 
-      </section>
-    </div>
-  </main>
-  <!-- End Portfolio Content -->
-
-  <!-- Footer -->
-  <footer class="d-flex p-1 bg-dark text-light fixed-bottom justify-content-center">
-    <p>Copyright &copy; Thaddeus Cole</p>
-  </footer>
-  <!-- End Footer -->
-
-  <!-- bootstrap javascript -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
+    <!-- bootstrap javascript -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
