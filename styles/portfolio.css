@@ -7,8 +7,7 @@
   transform: rotate(-10deg);
 }
 
-/* fade placeholder images */
-/* fade active images while hover */
+/* fade placeholder images (always) & active images during hover*/
 .placeholder,
 img:hover {
   opacity: 0.5;
