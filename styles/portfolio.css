@@ -8,10 +8,8 @@
 }
 
 /* fade placeholder images */
-.placeholder {
-  opacity: 0.5;
-}
-
+/* fade active images while hover */
+.placeholder,
 img:hover {
   opacity: 0.5;
 }
