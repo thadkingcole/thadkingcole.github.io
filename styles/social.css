@@ -4,6 +4,7 @@
   font-size: 20px;
   text-align: center;
   text-decoration: none;
+  color: white;
 }
 
 /* Hover effect for social icons */
@@ -17,17 +18,19 @@
 /* Twitter */
 .fa-twitter {
   background: #1da1f2;
-  color: white;
 }
 
 /* Linkedin */
 .fa-linkedin {
   background: #007bb5;
-  color: white;
 }
 
 /* Github */
 .fa-github {
   background: #333;
-  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #E1306C;
 }
