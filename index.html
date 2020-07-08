@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
 
-    <!-- Font Awesome Social Media icon library -->
+    <!-- Font Awesome 4 Icon Library -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -53,7 +53,6 @@
         </ul>
       </nav>
     </header>
-    <!-- End NavBar -->
 
     <!-- Main content -->
     <main class="container mb-5">
@@ -62,13 +61,48 @@
         <section class="col-12 col-lg-9 card shadow mt-4 mb-5">
           <h2 class="card-header">About Me</h2>
           <div class="card-body">
-            <img
-              class="img-fluid img-thumbnail mx-auto d-block mr-sm-4 float-sm-left"
-              src="./Assets/Images/thad.jpg"
-              width="300"
-              height="200"
-              alt="A picture of me"
-            />
+            <figure class="mb-3 mb-sm-0 mr-sm-4 float-sm-left">
+              <!-- picture -->
+              <img
+                class="img-fluid img-thumbnail d-block mx-auto"
+                src="./Assets/Images/thad.jpg"
+                width="300"
+                alt="A picture of me"
+              />
+              <!-- contact info -->
+              <figcaption class="figure-caption text-center text-sm-left">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="fa fa-envelope"></i>
+                    <script type="text/javascript">
+                      emailE = "gmail.com";
+                      emailE = "thadjcole+p" + "@" + emailE;
+                      document.write(
+                        '<a href="mailto:' + emailE + '">' + emailE + "</a>"
+                      );
+                    </script>
+                    <noscript>
+                      Email address protected by JavaScript
+                    </noscript>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-phone"></i>
+                    <script type="text/javascript">
+                      area = "423";
+                      mid3 = "202";
+                      last4 = "1787";
+                      document.write(
+                      `<a href="tel:+1${area}${mid3}${last4}"> (${area}) ${mid3}-${last4}</a>`
+                      );
+                    </script>
+                    <noscript>
+                      Phone number protected by JavaScript
+                    </noscript>
+                  </li>
+                </ul>
+              </figcaption>
+            </figure>
+            <!-- about me write-up -->
             <p>
               My name is Thad, and I am an aspiring full-stack software
               developer.
@@ -91,6 +125,7 @@
               social medias at the links below.
             </p>
           </div>
+          <!-- social media icon links -->
           <div class="card-footer text-center">
             <a
               class="fa fa-linkedin"
@@ -114,10 +149,8 @@
             ></a>
           </div>
         </section>
-        <!-- End about me card -->
       </div>
     </main>
-    <!-- End Main Content -->
 
     <!-- Footer -->
     <footer
