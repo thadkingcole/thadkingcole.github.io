@@ -13,6 +13,15 @@
       crossorigin="anonymous"
     />
 
+    <!-- Font Awesome 4 Icon Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Additional Social Media Icon styling -->
+    <link rel="stylesheet" href="./styles/social.css" />
+
     <!-- my portfolio css -->
     <link rel="stylesheet" href="./styles/portfolio.css" />
   </head>
@@ -50,129 +59,231 @@
     <!-- End NavBar -->
 
     <!-- Portfolio content -->
-    <main class="container mb-5">
+    <main class="container mt-4 mb-5">
       <div class="row">
-        <section class="col-12 col-lg-9 card shadow mt-4 mb-5">
-          <h2 class="card-header">Portfolio</h2>
-
-          <!-- First sub row -->
-          <div class="row card-body">
+        <section class="col">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
             <!-- Project 1 -->
-            <figure class="col-12 col-md-6">
-              <a
-                href="https://thadkingcole.github.io/Password-Generator"
-                target="_blank"
-              >
-                <img
-                  class="img-fluid mx-auto d-block"
-                  src="/Assets/Images/markus-spiske-iar-afB0QQw-unsplash.jpg"
-                  width="400"
-                  height="300"
-                  alt="password generator"
-                />
-              </a>
-              <!-- Project 1 short description -->
-              <figcaption class="text-center p-1 lead">
+            <!-- Is It Open? -->
+            <div class="col mb-4">
+              <div class="card h-100">
+                <a
+                  href="https://thadkingcole.github.io/is_it_open"
+                  target="_blank"
+                >
+                  <img
+                    src="./Assets/Images/is_it_open.png"
+                    class="card-img-top"
+                    alt="Is It Open?"
+                  />
+                </a>
+                <div class="card-body">
+                  <h2 class="card-title text-center">Is It Open?</h2>
+                  <p class="card-text">
+                    Do you need to get out of the house, but you don't know what
+                    is open and the current covid risk in your area? Is It Open
+                    will find your choice of restaurants, bars, and/or parks
+                    near you. Is It Open will also tell you up-to-date covid
+                    statistics in your area to help you properly assess the risk
+                    of going outside.
+                  </p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i class="fa fa-laptop" aria-hidden="true"></i>
+                      <a
+                        href="https://thadkingcole.github.io/is_it_open"
+                        target="_blank"
+                        >Deployed Site</a
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                      <a
+                        href="https://github.com/thadkingcole/is_it_open"
+                        target="_blank"
+                        >Github Repo</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <!-- Weather Dashboard -->
+            <div class="col mb-4">
+              <div class="card h-100">
+                <a
+                  href="https://thadkingcole.github.io/weather_dashboard"
+                  target="_blank"
+                >
+                  <img
+                    src="./Assets/Images/weather_dashboard.png"
+                    class="card-img-top"
+                    alt="Weather Dashboard"
+                  />
+                </a>
+                <div class="card-body">
+                  <h2 class="card-title text-center">Weather Dashboard</h2>
+                  <p class="card-text">
+                    Allows the user to see the weather outlook for multiple
+                    cities. Uses
+                    <a href="https://openweathermap.org/api" target="_blank"
+                      >OpenWeather API.</a
+                    >
+                  </p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i class="fa fa-laptop" aria-hidden="true"></i>
+                      <a
+                        href="https://thadkingcole.github.io/weather_dashboard"
+                        target="_blank"
+                        >Deployed Site</a
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                      <a
+                        href="https://github.com/thadkingcole/weather_dashboard"
+                        target="_blank"
+                        >Github Repo</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <!-- Workday -->
+            <div class="col mb-4">
+              <div class="card h-100">
+                <a
+                  href="https://thadkingcole.github.io/workday"
+                  target="_blank"
+                >
+                  <img
+                    src="./Assets/Images/workday.png"
+                    class="card-img-top"
+                    alt="Workday"
+                  />
+                </a>
+                <div class="card-body">
+                  <h2 class="card-title text-center">Workday</h2>
+                  <p class="card-text">
+                    A simple calendar application that allows the user to save
+                    events for each hour of the day. This app runs in the
+                    browser and features dynamically updating HTML and CSS
+                    powered by jQuery.
+                  </p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i class="fa fa-laptop" aria-hidden="true"></i>
+                      <a
+                        href="https://thadkingcole.github.io/workday"
+                        target="_blank"
+                        >Deployed Site</a
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                      <a
+                        href="https://github.com/thadkingcole/workday"
+                        target="_blank"
+                        >Github Repo</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <!-- Password Generator -->
+            <div class="col mb-4">
+              <div class="card h-100">
                 <a
                   href="https://thadkingcole.github.io/Password-Generator"
                   target="_blank"
-                  >Password Generator</a
-                >: a JavaScript random password generator
-              </figcaption>
-            </figure>
+                >
+                  <img
+                    src="./Assets/Images/password_generator.png"
+                    class="card-img-top"
+                    alt="Password Generator"
+                  />
+                </a>
+                <div class="card-body">
+                  <h2 class="card-title text-center">Password Generator</h2>
+                  <p class="card-text">
+                    A random password generator. Made with JavaScript
+                  </p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i class="fa fa-laptop" aria-hidden="true"></i>
+                      <a
+                        href="https://thadkingcole.github.io/Password-Generator"
+                        target="_blank"
+                        >Deployed Site</a
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                      <a
+                        href="https://github.com/thadkingcole/Password-Generator"
+                        target="_blank"
+                        >Github Repo</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
-            <!-- Project 2 -->
-            <figure class="col-12 col-md-6">
-              <a
-                href="https://thadkingcole.github.io/code_quiz"
-                target="_blank"
-              >
-                <img
-                  class="img-fluid mx-auto d-block"
-                  src="/Assets/Images/pankaj-patel-1IW4HQuauSU-unsplash.jpg"
-                  width="400"
-                  height="300"
-                  alt="code quiz"
-                />
-              </a>
-              <!-- Project 2 short description -->
-              <figcaption class="text-center p-1 lead">
-                <a
-                  href="https://thadkingcole.github.io/code_quiz"
-                  target="_blank"
-                  >Code Quiz</a
-                >: a timed quiz of JavaScript coding questions using the HTML
-                DOM API.
-              </figcaption>
-            </figure>
-          </div>
-
-          <!-- Second sub row -->
-          <div class="row card-body">
-            <!-- Project 3 -->
-            <figure class="col-12 col-md-6">
-              <a href="https://thadkingcole.github.io/workday" target="_blank">
-                <img
-                  class="img-fluid mx-auto d-block"
-                  src="/Assets/Images/cathryn-lavery-fMD_Cru6OTk-unsplash.jpg"
-                  width="400"
-                  height="300"
-                  alt="workday"
-                />
-              </a>
-              <!-- Project 3 short description -->
-              <figcaption class="text-center p-1 lead">
-                <a href="https://thadkingcole.github.io/workday" target="_blank"
-                  >Workday</a
-                >: a simple calendar application to help you plan your workday.
-              </figcaption>
-            </figure>
-
-            <!-- Project 4 -->
-            <figure class="col-12 col-md-6">
-              <a href="#">
-                <img
-                  class="img-fluid mx-auto d-block placeholder"
-                  src="https://placekitten.com/400/300"
-                  width="400"
-                  height="300"
-                  alt="project 4"
-                />
-              </a>
-              <!-- coming soon ribbon -->
-              <figcaption
-                class="bg-info text-light text-center p-1 lead ribbon"
-              >
-                Project 4 - coming soon!
-              </figcaption>
-            </figure>
-          </div>
-
-          <!-- Third sub row -->
-          <div class="row card-body">
             <!-- Project 5 -->
-            <figure class="col-12 col-md-6">
-              <a href="#">
-                <img
-                  class="img-fluid mx-auto d-block placeholder"
-                  src="https://placekitten.com/400/300"
-                  width="400"
-                  height="300"
-                  alt="project 5"
-                />
-              </a>
-              <!-- coming soon ribbon -->
-              <figcaption
-                class="bg-info text-light text-center p-1 lead ribbon"
-              >
-                Project 5 - coming soon!
-              </figcaption>
-            </figure>
+            <!-- Code Quiz -->
+            <div class="col mb-4">
+              <div class="card h-100">
+                <a
+                  href="https://thadkingcole.github.io/code_quiz/"
+                  target="_blank"
+                >
+                  <img
+                    src="./Assets/Images/code_quiz.png"
+                    class="card-img-top"
+                    alt="Code Quiz"
+                  />
+                </a>
+                <div class="card-body">
+                  <h2 class="card-title text-center">Code Quiz</h2>
+                  <p class="card-text">
+                    A timed quiz of JavaScript coding questions using HTML DOM
+                    manipulation.
+                  </p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <i class="fa fa-laptop" aria-hidden="true"></i>
+                      <a
+                        href="https://thadkingcole.github.io/code_quiz"
+                        target="_blank"
+                        >Deployed Site</a
+                      >
+                    </li>
+                    <li class="list-group-item">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                      <a
+                        href="https://github.com/thadkingcole/code_quiz"
+                        target="_blank"
+                        >Github Repo</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
     </main>
-    <!-- End Portfolio Content -->
 
     <!-- Footer -->
     <footer
