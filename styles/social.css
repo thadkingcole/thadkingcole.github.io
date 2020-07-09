@@ -7,33 +7,34 @@
   color: white;
 }
 
-/* Hover effect for social icons */
+/* Hover effect for social icon links */
 a.fa:hover {
   opacity: 0.7;
   text-decoration: none;
 }
 
-/* Twitter bg color */
+/* Twitter */
 .fa-twitter {
   background: #1da1f2;
 }
 
-/* Linkedin bg color */
+/* Linkedin */
 .fa-linkedin {
   background: #007bb5;
 }
 
-/* Github bg color */
+/* Github */
 .fa-github {
   background: #333;
 }
 
-/* Instagram bg color */
+/* Instagram */
 .fa-instagram {
   background: #fb3958;
 }
 
 /* deployed icon */
 .fa-laptop {
+  padding: 0.4rem;
   background: black;
 }

@@ -1,14 +1,4 @@
-/* display 'coming soon!' "ribbon" above each portfolio placeholder */
-.ribbon {
-  position: absolute;
-  bottom: 25%;
-  left: 1%;
-  right: 1%;
-  transform: rotate(-10deg);
-}
-
-/* fade placeholder images (always) & active images during hover */
-.placeholder,
+/* fade images during hover */
 img:hover {
   opacity: 0.5;
 }
