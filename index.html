@@ -55,13 +55,13 @@
     </header>
 
     <!-- Main content -->
-    <main class="container mb-5">
+    <main class="container mb-4">
       <div class="row">
         <!-- About me card -->
         <section class="col-12 col-lg-9 card shadow mt-4 mb-5">
           <h2 class="card-header">About Me</h2>
           <div class="card-body">
-            <figure class="mb-3 mb-sm-0 mr-sm-4 float-sm-left">
+            <figure class="mr-sm-4 float-sm-left">
               <!-- picture -->
               <img
                 class="img-fluid img-thumbnail d-block mx-auto"
@@ -69,84 +69,77 @@
                 width="300"
                 alt="A picture of me"
               />
-              <!-- contact info -->
-              <figcaption class="figure-caption text-center text-sm-left">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <i class="fa fa-envelope"></i>
-                    <script type="text/javascript">
-                      emailE = "gmail.com";
-                      emailE = "thadjcole+p" + "@" + emailE;
-                      document.write(
-                        '<a href="mailto:' + emailE + '">' + emailE + "</a>"
-                      );
-                    </script>
-                    <noscript>
-                      Email address protected by JavaScript
-                    </noscript>
-                  </li>
-                  <li class="list-group-item">
-                    <i class="fa fa-phone"></i>
-                    <script type="text/javascript">
-                      area = "423";
-                      mid3 = "202";
-                      last4 = "1787";
-                      document.write(
-                      `<a href="tel:+1${area}${mid3}${last4}"> (${area}) ${mid3}-${last4}</a>`
-                      );
-                    </script>
-                    <noscript>
-                      Phone number protected by JavaScript
-                    </noscript>
-                  </li>
-                </ul>
+              <figcaption class="figure-caption text-center pt-2">
+                <!-- social media icon links -->
+                <a
+                  class="fa fa-linkedin"
+                  href="https://www.linkedin.com/in/thaddeuscole/"
+                  target="_blank"
+                ></a>
+                <a
+                  class="fa fa-github"
+                  href="https://www.github.com/thadkingcole"
+                  target="_blank"
+                ></a>
+                <a
+                  class="fa fa-twitter"
+                  href="https://www.twitter.com/thadkingcole"
+                  target="_blank"
+                ></a>
+                <a
+                  class="fa fa-instagram"
+                  href="https://www.instagram.com/thadkingcole/"
+                  target="_blank"
+                ></a>
               </figcaption>
             </figure>
-            <!-- about me write-up -->
-            <p>
-              My name is Thad, and I am an aspiring full-stack software
-              developer.
-            </p>
-            <p>
-              I am originally from Tennessee and attended the University of
-              Tennessee where I studied nuclear engineering. While in college, I
-              was introduced to programming through various courses that taught
-              MATLAB and Fortran, and I really enjoyed the thrill of solving a
-              problem through code. Today, that thrill remains, and I am
-              teaching myself Python and attending a coding bootcamp at the
-              University of North Carolina to learn the skills necessary to
-              become a full-stack web developer.
-            </p>
-            <p>
-              This site is in early stages of development, so check back later
-              for more updates! Please visit my
-              <a href="portfolio.html">portfolio page</a> for a list of projects
-              I have worked on. If you'd like, you can follow me on various
-              social medias at the links below.
+            <!-- about me brand statement -->
+            <p class="card-text">
+              My name is Thad, and I am a full-stack web developer with a
+              passion for solving problems with code. Soon-to-be graduate of the
+              Coding Boot Camp at UNC Chapel Hill with skills in HTML,
+              CSS/Bootstrap, JavaScript/jQuery, and Python, I specialize in
+              building web applications with a responsive and intuitive
+              front-end and a robust and reliable back-end. I leverage my
+              background in nuclear operations to remain calm under pressure,
+              think critically, learn quickly, and work as either a teammate or
+              team leader to achieve a common goal. I am eager to combine my
+              background in nuclear operations with my technical skills to build
+              exciting products as part of a fast-paced results-driven
+              engineering team.
             </p>
           </div>
-          <!-- social media icon links -->
           <div class="card-footer text-center">
-            <a
-              class="fa fa-linkedin"
-              href="https://www.linkedin.com/in/thaddeuscole/"
-              target="_blank"
-            ></a>
-            <a
-              class="fa fa-github"
-              href="https://www.github.com/thadkingcole"
-              target="_blank"
-            ></a>
-            <a
-              class="fa fa-twitter"
-              href="https://www.twitter.com/thadkingcole"
-              target="_blank"
-            ></a>
-            <a
-              class="fa fa-instagram"
-              href="https://www.instagram.com/thadkingcole/"
-              target="_blank"
-            ></a>
+            <!-- contact -->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <i class="fa fa-envelope"></i>
+                <script type="text/javascript">
+                  const domain = "gmail.com",
+                    user = "thadjcole+p";
+                  document.write(
+                    `<a href="mailto:${user}@${domain}"">${user}@${domain}</a>`
+                  );
+                </script>
+                <noscript>
+                  Email address protected by JavaScript
+                </noscript>
+              </li>
+              <li class="list-group-item">
+                <i class="fa fa-phone"></i>
+                <script type="text/javascript">
+                  const area = "423",
+                    mid3 = "202",
+                    last4 = "1787";
+                  document.write(
+                    `<a href="tel:+1${area}${mid3}${last4}"> (${area}) ${mid3}-${last4}</a>`
+                  );
+                </script>
+                <noscript>
+                  Phone number protected by JavaScript
+                </noscript>
+              </li>
+            </ul>
           </div>
         </section>
       </div>
