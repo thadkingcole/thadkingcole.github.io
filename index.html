@@ -13,6 +13,9 @@
       crossorigin="anonymous"
     />
 
+    <!-- Custom Bootstrap -->
+    <link rel="stylesheet" href="./styles/custom.css">
+
     <!-- Font Awesome 4 Icon Library -->
     <link
       rel="stylesheet"
@@ -22,11 +25,11 @@
     <!-- Additional Social Media Icon styling -->
     <link rel="stylesheet" href="./styles/social.css" />
   </head>
-  <body>
+  <body class="bg-light">
     <!-- NavBar -->
-    <header class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <header class="navbar navbar-expand-sm bg-secondary navbar-dark">
       <a class="nav-link" href="index.html">
-        <h1 class="text-light">Thaddeus Cole</h1>
+        <h1>Thaddeus Cole</h1>
       </a>
       <button
         class="navbar-toggler"
@@ -58,7 +61,7 @@
     <main class="container mb-4">
       <div class="row">
         <!-- About me card -->
-        <section class="col-12 col-lg-9 card shadow mt-4 mb-5">
+        <section class="col-12 col-lg-9 card bg-transparent border-primary shadow-lg mt-4 mb-5">
           <h2 class="card-header">About Me</h2>
           <div class="card-body">
             <figure class="mr-sm-4 float-sm-left">
@@ -147,7 +150,7 @@
 
     <!-- Footer -->
     <footer
-      class="d-flex p-3 bg-dark text-light fixed-bottom justify-content-center"
+      class="d-flex p-3 bg-dark text-secondary fixed-bottom justify-content-center"
     >
       Copyright &copy; Thaddeus Cole
     </footer>
