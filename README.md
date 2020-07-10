@@ -1,20 +1,9 @@
-# Welcome to my website repo
+# [My Portfolio Site Repo](https://thadkingcole.github.io)
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f9f0ac4f550a47a8901a9147976ca3af)](https://app.codacy.com/manual/thadkingcole/thadkingcole.github.io?utm_source=github.com&utm_medium=referral&utm_content=thadkingcole/thadkingcole.github.io&utm_campaign=Badge_Grade_Dashboard) ![GitHub top language](https://img.shields.io/github/languages/top/thadkingcole/thadkingcole.github.io)
 
-This repo will house my personal/professional [website](https://thadkingcole.github.io). On this website, I will provide some information about myself, a portfolio page showcasing some of my projects, and a way to contact me.
+[![main page screnshot](./Assets/screenshots/main_page.png)](https://thadkingcole.github.io)
 
-## Work list
+Welcome to my [portfolio site](https://thadkingcole.github.io) repo. On this website, I will provide some information about myself, a portfolio page showcasing some of my projects. and a way to contact me.
 
-These are the things I am working on to improve my website. I will add to this list as time goes on. If you have any ideas of things to improve, please feel free to share; I am very interested in learning new things and improving.
-- [x] collapsible NavBar on all pages
-- [x] responsive layout and images 
-- [x] utilize bootstrap classes to minimize the use of media queries
-- [x] use bootstrap's grid system
-- [x] use semantic html
-- [x] each page must have valid and correct html
-- [x] must contain my personalized information (bio, name, images, links to social media, etc)
-- [x] using bootstrap, make a sticky footer
-- [x] use sub-rows and sub-columns on portfolio site
-- [ ] add screenshot of website to readme
-- [ ] make contact me page a functional way to, well, contact me.
+Feel free to email me with any feedback/comments. I am always looking for ways to improve!
