@@ -1,12 +1,16 @@
 // @ts-nocheck
 /*
-  I want to easily change which projects are displayed on the portfolio page without changing the HTML code. I will be using the github api to get the data I want from each project repo, then displaying it in the responsive grid setup in portfolio.html
+  I want to easily change which projects are displayed on the portfolio page
+  without changing the HTML code. I will be using the github api to get the
+  data I want from each project repo, then displaying it in the responsive
+  grid setup in portfolio.html
 */
 
 // * global variables
 const projectGridEl = $(".project-grid");
 const repos = [
-  // add repos to be added to project page in desired order
+  // add repos to be added to project page
+  // ! order is randomized with each page load
   "symptom_tracker",
   "is_it_open",
   "weather_dashboard",
@@ -16,7 +20,7 @@ const repos = [
 
 // * functions
 function titleCase(str) {
-  // removes underscores,
+  // removes underscores
   // capitalizes the first letter of each word
   // adds spaces between each word
   return str
@@ -30,7 +34,6 @@ function getRepoInfo(repoName) {
   fetch(url)
     .then((data) => data.json())
     .then((res) => {
-      console.log(res);
       // create container for card
       const container = $("<div>").addClass("col mb-4");
 
@@ -43,8 +46,15 @@ function getRepoInfo(repoName) {
       const imgLink = $("<a>")
         .addClass("card-link")
         .attr("href", res.homepage)
-        .attr("target", "_blank")
-        .text("a picture goes here"); // TODO replace with new img later
+        .attr("target", "_blank");
+      // create the actual img tag
+      const screenshotURL = `https://raw.githubusercontent.com/thadkingcole/${repoName}/master/public/images/screenshot.png`;
+      const screenshot = $("<img>")
+        .addClass("card-img-top")
+        .attr("src", screenshotURL)
+        .attr("alt", repoName);
+      // add screenshot to the imgLink
+      imgLink.append(screenshot);
 
       // create card body
       const cardBody = $("<div>").addClass("card-body");
@@ -92,9 +102,4 @@ function getRepoInfo(repoName) {
 }
 
 // * main
-getRepoInfo(repos[0]);
-
-// get info from a repo
-// create card
-// insert info into card
-// add card to project grid
+repos.forEach((repo) => getRepoInfo(repo));
