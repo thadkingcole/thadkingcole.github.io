@@ -16,6 +16,7 @@ const repos = [
   "weather_dashboard",
   "burger",
   "readme_generator",
+  "noted",
 ];
 
 // * functions
