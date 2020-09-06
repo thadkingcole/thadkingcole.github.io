@@ -20,16 +20,6 @@ const repos = [
 ];
 
 // * functions
-function titleCase(str) {
-  // removes underscores
-  // capitalizes the first letter of each word
-  // adds spaces between each word
-  return str
-    .split("_")
-    .map((word) => word.replace(word[0], word[0].toUpperCase()))
-    .join(" ");
-}
-
 function getRepoInfo(repoName) {
   const url = `https://api.github.com/repos/thadkingcole/${repoName}`;
   fetch(url)
@@ -60,8 +50,8 @@ function getRepoInfo(repoName) {
       // create card body
       const cardBody = $("<div>").addClass("card-body");
       const cardTitle = $("<h2>")
-        .addClass("card-title text-center")
-        .text(titleCase(res.name));
+        .addClass("card-title text-center text-capitalize")
+        .text(res.name.split("_").join(" "));
       const cardText = $("<p>").addClass("card-text").text(res.description);
       // append card body together
       cardBody.append(cardTitle).append(cardText);
