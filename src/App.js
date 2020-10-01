@@ -1,9 +1,9 @@
 import React from "react";
-import Jumbotron from "react-bootstrap/Jumbotron";
+import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import Jumbotron from "react-bootstrap/Jumbotron";
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
-import { Col, Navbar } from "react-bootstrap";
 
 function App() {
   return (
@@ -118,7 +118,7 @@ function App() {
         className="bg-secondary mb-0 py-2 fixed-bottom text-center"
       >
         <Container>
-          <h3>This is a footer. Copyright &copy; Thaddeus Cole</h3>
+          <small>Copyright &copy; Thaddeus Cole</small>
         </Container>
       </Jumbotron>
     </>
