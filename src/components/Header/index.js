@@ -7,10 +7,9 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <Jumbotron as="header" className="bg-primary pb-0" fluid>
+    <Jumbotron as="header" className="pb-0" fluid>
       <Container>
         <h1>Thaddeus Cole</h1>
-        <p>Welcome to my portfolio!</p>
         <Col sm={7} md={6}>
           <Nav fill variant="tabs" defaultActiveKey="/about">
             <Nav.Item>
@@ -18,7 +17,6 @@ function Header() {
                 as={Link}
                 to="/about"
                 eventKey="/about"
-                className="bg-dark text-success"
               >
                 About
               </Nav.Link>
@@ -28,7 +26,6 @@ function Header() {
                 as={Link}
                 to="/portfolio"
                 eventKey="/portfolio"
-                className="bg-dark text-success"
               >
                 Portfolio
               </Nav.Link>
@@ -38,7 +35,6 @@ function Header() {
                 as={Link}
                 to="/contact"
                 eventKey="/contact"
-                className="bg-dark text-success"
               >
                 Contact
               </Nav.Link>
