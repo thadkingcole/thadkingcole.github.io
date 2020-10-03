@@ -5,7 +5,6 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-
 // import desired icons from font awesome for use anywhere in the app
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -21,7 +20,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className="mb-5">
         <Switch>
           <Route exact path={["/", "/about"]} component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
