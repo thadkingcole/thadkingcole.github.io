@@ -13,29 +13,17 @@ function Header() {
         <Col sm={7} md={6}>
           <Nav fill variant="tabs" defaultActiveKey="/about">
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                eventKey="/about"
-              >
+              <Nav.Link as={Link} to="/about" eventKey="/about">
                 About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/portfolio"
-                eventKey="/portfolio"
-              >
+              <Nav.Link as={Link} to="/portfolio" eventKey="/portfolio">
                 Portfolio
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/contact"
-                eventKey="/contact"
-              >
+              <Nav.Link as={Link} to="/contact" eventKey="/contact">
                 Contact
               </Nav.Link>
             </Nav.Item>

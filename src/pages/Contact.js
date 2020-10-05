@@ -1,3 +1,5 @@
+// contact page coming soon
+
 import React from "react";
 
 function Contact() {
