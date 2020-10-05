@@ -7,7 +7,7 @@ function Footer() {
     <Jumbotron
       fluid
       as="footer"
-      className="bg-secondary mb-0 py-2 fixed-bottom text-center"
+      className="bg-dark mb-0 py-2 fixed-bottom text-center text-info"
     >
       <Container>
         <small>Copyright &copy; Thaddeus Cole</small>
