@@ -6,6 +6,7 @@ import Figure from "react-bootstrap/Figure";
 import ListGroup from "react-bootstrap/ListGroup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Obfuscate from "react-obfuscate";
+import "./about.css";
 
 function About() {
   return (
@@ -28,6 +29,7 @@ function About() {
                   icon={["fab", "github-square"]}
                   size="3x"
                   fixedWidth
+                  className="github social"
                 />
               </a>
               {/* linkedin icon link */}
@@ -40,6 +42,7 @@ function About() {
                   icon={["fab", "linkedin"]}
                   size="3x"
                   fixedWidth
+                  className="linkedin social"
                 />
               </a>
               {/* twitter icon link */}
@@ -52,6 +55,7 @@ function About() {
                   icon={["fab", "twitter-square"]}
                   size="3x"
                   fixedWidth
+                  className="twitter social"
                 />
               </a>
               {/* instagram icon link */}
@@ -64,6 +68,7 @@ function About() {
                   icon={["fab", "instagram-square"]}
                   size="3x"
                   fixedWidth
+                  className="instagram social"
                 />
               </a>
             </Figure.Caption>
