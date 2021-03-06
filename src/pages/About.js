@@ -107,7 +107,7 @@ function About() {
             <ListGroup.Item>
               <FontAwesomeIcon icon="file-pdf" size="lg" fixedWidth />
               <a
-                href="https://drive.google.com/file/d/1-e8Rdh5XIrcg0jafdU54J0hapT8X_esW/view?usp=sharing"
+                href="https://docs.google.com/document/d/e/2PACX-1vR35XzZsNqcDeqOTepYBJYGEVpKAcWf_zAfpfATAFN0lL92mmtRklQ4ONXJ8h6RgXC6NSdtyYJlPQWK/pub"
                 target="_blank"
                 rel="noopener noreferrer"
               >
