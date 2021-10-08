@@ -8,9 +8,9 @@ import "./styles.css";
 
 function Header() {
   return (
-    <Jumbotron as="header" className="bg-secondary pb-0" fluid>
+    <Jumbotron as="header" className="bg-secondary pt-5" fluid>
       <Container>
-        <h1 className="text-primary">Thaddeus Cole</h1>
+        <h1 className="text-primary mb-5">Thaddeus Cole</h1>
         <Col sm={7} md={6}>
           <Nav fill variant="tabs" defaultActiveKey="/about">
             <Nav.Item>

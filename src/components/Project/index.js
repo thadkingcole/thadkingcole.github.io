@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import API from "../../utils/API";
+import { getRepo } from "../../utils/API";
 
 function Project({ name }) {
   const [repoInfo, setRepoInfo] = useState(name);
 
   useEffect(() => {
-    API.getRepo(name)
+    getRepo(name)
       .then((res) => {
         setRepoInfo(res.data);
       })
