@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="mb-5">
+      <main className="my-5">
         <Switch>
           <Route exact path={["/", "/about"]} component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
